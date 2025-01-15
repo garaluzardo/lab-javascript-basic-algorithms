@@ -35,9 +35,11 @@ if (garaLength > silviaLength) {
     // Paso 1
     let result = hacker1.toUpperCase().split('').join(' ');
     console.log (result);
+
     // Paso 2
     let reversedName = hacker2.split('').reverse().join('');
     console.log(reversedName);
+    
     // Paso 3
 
     if (hacker1.localeCompare(hacker2) < 0) {
